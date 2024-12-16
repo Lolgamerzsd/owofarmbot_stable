@@ -1,19 +1,19 @@
 {
-    "prefix": "!",
+    "prefix": "o",
     "main": {
         "token": "",
-        "userid": "",
-        "commandschannelid": "",
-        "huntbotchannelid": "",
-        "owodmchannelid": "",
-        "gamblechannelid": "",
-        "autoquestchannelid": "",
+        "userid": "1135617902444290249",
+        "commandschannelid": "1314552153280352319",
+        "huntbotchannelid": "1314552153280352322",
+        "owodmchannelid": "1308469113135431710",
+        "gamblechannelid": "1314552153280352322",
+        "autoquestchannelid": "1314552153280352322",
 
         "commands": {
             "hunt": true,
             "battle": true,
-            "pray": false,
-            "curse": true,
+            "pray": true,
+            "curse": false,
             "huntbot": {
                 "enable": true,
                 "maxtime": 10,
@@ -22,7 +22,7 @@
             },
             "gamble": {
                 "coinflip": true,
-                "slot": true
+                "slot": false
             },
             "animals": false,
             "inventory": true,
@@ -65,7 +65,7 @@
         "maximum_gem_rarity": "Mythical"
     },
     "settings": {
-        "owoprefix": "owo",
+        "owoprefix": "o",
         "discordrpc": false,
         "chatfeedback": true,
         "autophrases": true,
@@ -90,12 +90,12 @@
         },
         "gamble": {
             "coinflip": {
-                "default_amount": 1000,
-                "max_amount": 250000,
-                "multiplier": 1.0
+                "default_amount": 2000,
+                "max_amount": 300000,
+                "multiplier": 3.0
             },
             "slot": {
-                "default_amount": 1000,
+                "default_amount": 1,
                 "max_amount": 250000,
                 "multiplier": 1.0
             }
@@ -149,8 +149,8 @@
             "min": 16000
         },
         "pray": {
-            "max": 332000,
-            "min": 316000
+            "max": 252000,
+            "min": 242000
         },
         "coinflip": {
             "max": 32000,
