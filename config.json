@@ -3,11 +3,11 @@
     "main": {
         "token": "",
         "userid": "1135617902444290249",
-        "commandschannelid": "1314552153280352319",
-        "huntbotchannelid": "1314552153280352322",
+        "commandschannelid": "1314552153280352322",
+        "huntbotchannelid": "1318137174297935882",
         "owodmchannelid": "1308469113135431710",
-        "gamblechannelid": "1314552153280352322",
-        "autoquestchannelid": "1314552153280352322",
+        "gamblechannelid": "1318137432176332833",
+        "autoquestchannelid": "1318137834439311380",
 
         "commands": {
             "hunt": true,
@@ -22,7 +22,7 @@
             },
             "gamble": {
                 "coinflip": true,
-                "slot": false
+                "slot": true
             },
             "animals": false,
             "inventory": true,
@@ -91,7 +91,7 @@
         "gamble": {
             "coinflip": {
                 "default_amount": 2000,
-                "max_amount": 300000,
+                "max_amount": 250000,
                 "multiplier": 3.0
             },
             "slot": {
@@ -153,7 +153,7 @@
             "min": 242000
         },
         "coinflip": {
-            "max": 32000,
+            "max": 18000,
             "min": 16000
         },
         "slot": {
